@@ -1,4 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+ul {
+  list-style: none;
+}
+
+$primary: #29abe2; // Vibrant blue
+$secondary: #6c757d; // Muted blue-grey
+$accent: #f44336; // Bold pink
+$background: #121212; // Deep black
+$light: #f8f9fa; // Bright white
+$dark: #000; // Dark black
+$warn: #f44336; // Pink
+$info: #007bff; // Primary blue
+$success: #28a745; // Primary green
+
+/* Use color variables in CSS rules */
+body {
+  background-color: $background !important;
+  color: $light !important;
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  color: $light !important;
+}
+
+.btn-secondary {
+  background-color: $secondary !important;
+  border-color: $secondary !important;
+  color: $light !important;
+}
