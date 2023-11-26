@@ -1,0 +1,37 @@
+@import "../../../styles.scss";
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  height: calc(100% - 68px);
+}
+
+.assets-container {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  justify-content: center;
+  height: 30%;
+}
+
+.transactions-container {
+  height: 40%;
+}
+
+.wallets-container {
+  height: 40%;
+}
+
+.total-card {
+  flex: 2 0 auto;
+}
+
+.nft-card {
+  flex: 1 0 auto;
+}
+
+.token-card {
+  flex: 1 0 auto;
+}
